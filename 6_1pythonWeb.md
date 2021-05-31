@@ -1,8 +1,8 @@
-#Python app to web 
+# Python app to web 
 
 The task was completed as a part of the Python [course](https://terokarvinen.com/2021/python-web-service-from-idea-to-production/) by Haaga-Helia. The sources used for deployment are from Terokarvinen.com.
 
-##Main phases
+## Main phases
 First, obtaining a virtual machine from Digital Ocean, creating a user, locking the root account, setting up the firewall and allow ports 22 and 80
 Second, configuring apache2 to run on the system, along with the necessary python3 installs and postgresql
 Third, create an administrative user, lock the account and join the group with main account, and give the right permissions
@@ -23,7 +23,7 @@ Fourth, SQL didn't show up. Turns out one of the modules psycopg2 was missing. S
 Fifth, the permissions in the beginning seems to have messed up my first users postgre, cant see the tables, and I don't know how to log in as the other user. Solution - must ask tomorrow.
 Sixth, the sample data is replicated when relaunched. Solution: tried to add unique=True, but it didn't do much good. Must check tomorrow. At least it verifies the database works.
 
-##Result
+## Result
 
 167.99.132.240 
 
